@@ -1,11 +1,11 @@
 <!DOCTYPE html>
 <html xmlns="http://www.w3.org/1999/xhtml" xmlns:th="http://www.thymeleaf.org">
     <head>
-        <title>Epic house party</title>
+        <title>User info</title>
     </head>
     <body>
-        <h1>List of participants</h1>
-        <div>users</div>
+        <h1>Epic house party admin page</h1>
+        <div> List of users</div>
         <ul>
             <li th:each="entry : ${userDetails}">
                 user: <span th:text="${entry}">user</span>
